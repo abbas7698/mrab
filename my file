@@ -164,7 +164,7 @@ celestia-appd keys add $CELESTIA_WALLET
 ا
 
 -----------------------------------
-CELESTIA_ADDR=$(celestia-appd keys show $CELESTIA_WALLET -a) 
+CELESTIA_ADDR=$(celestia-appd keys show $CELESTIA_ -a) 
 echo $CELESTIA_ADDR 
 echo 'export CELESTIA_ADDR='${CELESTIA_ADDR} >> $HOME/.bash_prof
 
